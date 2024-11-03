@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="channels4_profile.jpg" type="image/x-icon">
+    <meta name="theme-color" content="#f34567">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre MIM</title>
+</head>
+<style>
+.cronograma{table-layout: fixed;width: 300px;border-radius: 10px 10px;white-space: nowrap;overflow-x: auto;margin: auto;border: 6px solid blue;box-shadow: 7px 7px 7px whitesmoke;}
+.certificados{table-layout: fixed;width: 300px;border-radius: 10px 10px;white-space: nowrap;overflow-x: auto;margin: auto;border: 6px solid white;box-shadow: 7px 7px 7px red;}
+.estacio{width: 240px;margin: auto;border-radius: 10px 10px;padding: 20px;align-items: center;justify-content: center;background-color: blue;border: 5px solid white;box-shadow: 8px 8px 8px white;}
+.cursos{width: 240px;margin: auto;border-radius: 10px 10px;padding: 20px;align-items: center;justify-content: center;background-color: blue;border: 5px solid white;box-shadow: 8px 8px 8px black;}
+.linguagens{width: 240px;margin: auto;border-radius: 10px 10px;padding: 20px;align-items: center;justify-content: center;background-color: black;border: 5px solid white;box-shadow: 8px 8px 8px yellow;}
+.table1{table-layout: fixed;overflow-y: auto;height: 200px;width: 300px;margin: auto;border-radius: 10px 10px;white-space: nowrap;border: 6px solid white;box-shadow: 8px 8px 8px blue;}
+.table2{table-layout: fixed;overflow-y: auto;height: 200px;width: 300px;margin: auto;border-radius: 10px 10px;white-space: nowrap;border: 6px solid red;box-shadow: 8px 8px 8px blueviolet;}
+.table3{table-layout: fixed;overflow-y: auto;height: 200px;width: 300px;margin: auto;border-radius: 10px 10px;white-space: nowrap;border: 6px solid white;box-shadow: 8px 8px 8px brown;}
+.table4{table-layout: fixed;overflow-y: auto;height: 200px;width: 300px;margin: auto;border-radius: 10px 10px;white-space: nowrap;border: 6px solid red;box-shadow: 8px 8px 8px white;}
+.redes{gap: 5px;padding: 10px;display: flex;flex-direction: row;align-items: center;justify-content: center;width: 240px;margin: auto;border-radius: 10px 10px;background-color: whitesmoke;box-shadow: 8px 8px 8px blueviolet;text-align: center;}
+.contatos{gap: 5px;padding: 10px;display: flex;flex-direction: row;align-items: center;justify-content: center;width: 240px;margin: auto;border-radius: 10px 10px;background-color: rgb(75, 67, 67);box-shadow: 8px 8px 8px yellow;text-align: center;}
+</style>
+<body>
+    <div class="menu" onclick="toggleMenu()">☰ Menu</div>
+    <div class="fundo" id="abrirmenu">
+    <div class="animação">
+    <button class="botão-fechar-X" onclick="toggleMenu()">×</button>
+    <br>
+    <ul>
+        <br>
+        <br>
+        <li><a href="#Cronograma" style="font-size: 20px;text-shadow: 9px;text-decoration: underline;">Cronograma</a></li>
+        <br>
+        <li><a href="#Sobre MIM" style="font-size: 20px;text-shadow: 9px;text-decoration: underline;">Sobre MIM</a></li>
+        <br>
+        <li><a href="#Projetos" style="font-size: 20px;text-shadow: 9px;text-decoration: underline;">Projetos</a></li>
+        <br>
+        <li><a href="#Faculdade" style="font-size: 20px;text-shadow: 9px;text-decoration: underline;">Faculdade</a></li>
+        <br>
+        <li><a href="#Materias" style="font-size: 20px;text-shadow: 9px;text-decoration: underline;">Materias</a></li>
+        <br>
+        <li><a href="#Cursos" style="font-size: 20px;text-shadow: 9px;text-decoration: underline;">Cursos</a></li>
+        <br>
+        <li><a href="#Certificados" style="font-size: 20px;text-shadow: 9px;text-decoration: underline;">Certificados</a></li>
+        <br>
+        <li><a href="#Linguagens" style="font-size: 20px;text-shadow: 9px;text-decoration: underline;">Linguagens</a></li>
+        <br>
+        <li><a href="#Redes" style="font-size: 20px;text-shadow: 9px;text-decoration: underline;">Redes</a></li>
+        <br>
+        <li><a href="#Contatos" style="font-size: 20px;text-shadow: 9px;text-decoration: underline;">Contatos</a></li>
+        <br>
+    </ul></div></div>
+    <br>
+    <div class="header">
+    <header id="Sobre MIM" style="background-color: darkcyan;">
+    <h2><big>Sobre MIM</big></h2>
+    <hr>
+    <p>Guilherme-Barbosa-da-silva,sou estudante de engenharia de software na <img src="estacio.jpeg" alt="icon" width="40px" height="30px" style="border-radius: 10px 10px;box-shadow: 4px 4px 4px white;"><a href="https://portaladm.estacio.br/unidades/centro-universit%C3%A1rio-est%C3%A1cio-do-cear%C3%A1/sobre-a-institui%C3%A7%C3%A3o/miss%C3%A3o-vis%C3%A3o-e-valores/#:~:text=%E2%80%9CEducar%20para%20transformar%3A%20oferecer%20uma%20educa%C3%A7%C3%A3o%20transformadora%20%C3%A0,a%20melhoria%20da%20qualidade%20de%20vida%20em%20sociedade%E2%80%9D." target="_blank" rel="external" style="background-color:blue;color: white;border: 4px solid white;box-shadow: 8px 8px 8px black;border-radius: 10px 10px;text-decoration: none;text-shadow: 8px;"><b>Estácio</b></a> estou no 2ªSemestre aprendendo sobre lógica da programação e Desenvolvimento full-stack na <img src="Faisp.webp" alt="icon" width="40px" height="30px" style="border-radius: 10px 10px;box-shadow: 5px 5px 5px red;"><a href="https://faisp.edu.br/" target="_blank" rel="external" style="background-color: brown;color: white;border: 3px solid white;box-shadow: 4px 4px 4px brown;border-radius: 10px 10px;text-decoration: none;text-shadow: 8px;"><b>FAISP</b></a></p>
+    <p>Desenvolvimento full-stack engloba todo o Desenvolvimento web - sendo o front-end e o back end</p>
+    <p>Indo até o banco de dados o mySQL</p>
+    </header>
+    </div>
+    <br>
+    <div class="section">
+    <section id="Cronograma" style="background-color: whitesmoke;">
+    <h2><big>Meu Cronograma</big></h2>
+    <br>
+    <div class="summary"><div id="text"><details><summary style="background-color: black;color: white;border: 5px solid white;box-shadow: 8px 8px 8px yellow;">Cronograma</summary>
+    <br>
+    <caption><b style="color: black;">Cronograma</b></caption>
+    <div class="cronograma">
+    <table>
+    <thead style="background-color: black;color: yellow;"><tr><td colspan="20">Cronograma</td></tr></thead>
+    <tbody style="background-color: blanchedalmond;color: blanchedalmond;"><tr><td colspan="20">NEW</td></tr></tbody>
+    <thead style="background-color: blue;color: white;"><tr><td colspan="20">Horários</td></tr></thead>
+    <tbody style="background-color: blanchedalmond;color: blanchedalmond;"><tr><td colspan="20">NEW</td></tr></tbody>
+    <tbody style="background-color: aqua;color: black;"><tr>
+    <td>05:00 AM</td>
+    <td>06:00 AM</td>
+    <td>07:00 AM</td>
+    <td>08:00 AM</td>
+    <td>09:00 AM</td>
+    <td>10:00 AM</td>
+    <td>11:00 AM</td>
+    <td>12:00 AM</td>
+    <td>13:00 PM</td>
+    <td>14:00 PM</td>
+    <td>15:00 PM</td>
+    <td>16:00 PM</td>
+    <td>17:00 PM</td>
+    <td>18:00 PM</td>
+    <td>19:00 PM</td>
+    <td>20:00 PM</td>
+    <td>21:00 PM</td>
+    <td>22:00 PM</td>
+    <td>23:00 PM</td>
+    <td>00:00 PM</td></tr></tbody>
+    <tbody style="background-color: blanchedalmond;color: blanchedalmond;"><tr><td colspan="20">NEW</td></tr></tbody>
+    <thead style="background-color: blue;color: white;"><tr><td colspan="20">Atividades</td></tr></thead>
+    <tbody style="background-color: blanchedalmond;color: blanchedalmond;"><tr><td colspan="20">NEW</td></tr></tbody>
+    <tbody style="background-color: aqua;color: black;"><tr>
+    <td>Iniciar</td>
+    <td>Acordar</td>
+    <td>Despertar</td>
+    <td>Levantar</td>
+    <td>Arrumar a cama</td>
+    <td>Preparar o café</td>
+    <td>Ir a academia</td>
+    <td>Treinar</td>
+    <td>Voltar</td>
+    <td>Preparar o almoço</td>
+    <td>Estudar</td>
+    <td>Ouvir</td>
+    <td>Treinar</td>
+    <td>Praticar</td>
+    <td>Meditar</td>
+    <td>Ir ao trabalho</td>
+    <td>Intervalo</td>
+    <td>Descanso</td>
+    <td>Volta</td>
+    <td>Tomar banho</td></tr></tbody>
+    <tbody style="background-color: blanchedalmond;color: blanchedalmond;"><tr><td colspan="20">NEW</td></tr></tbody>
+    <thead style="background-color: blue;color: white;"><tr><td colspan="20">Status</td></tr></thead>
+    <tbody style="background-color: blanchedalmond;color: blanchedalmond;"><tr><td colspan="20">NEW</td></tr></tbody>
+    <tbody style="background-color: aqua;color: black;"><tr>
+    <td>Ótimo</td>
+    <td>Legal</td>
+    <td>Bom</td>
+    <td>Nice</td>
+    <td>Very much</td>
+    <td>Very good</td>
+    <td>Good</td>
+    <td>Good job</td>
+    <td>Good work</td>
+    <td>Excelent</td>
+    <td>Excepcional</td>
+    <td>Espetacular</td>
+    <td>Explendido</td>
+    <td>Maravilha</td>
+    <td>Muito bom</td>
+    <td>Mais ou menos</td>
+    <td>Okay</td>
+    <td>Lets,go</td>
+    <td>Lets,work</td>
+    <td>Much</td></tr></tbody>
+    <tbody style="background-color: blanchedalmond;color: blanchedalmond;"><tr><td colspan="20">NEW</td></tr></tbody>
+    <thead style="background-color: blue;color: white;"><tr><td colspan="20">Notas</td></tr></thead>
+    <tbody style="background-color: blanchedalmond;color: blanchedalmond;"><tr><td colspan="20">NEW</td></tr></tbody>
+    <tbody style="background-color: aqua;color: black;"><tr>
+    <td>10</td>
+    <td>8</td>
+    <td>10</td>
+    <td>8</td>
+    <td>7</td>
+    <td>9</td>
+    <td>7</td>
+    <td>6</td>
+    <td>7</td>
+    <td>9</td>
+    <td>8</td>
+    <td>9</td>
+    <td>7</td>
+    <td>8</td>
+    <td>9</td>
+    <td>10</td>
+    <td>9</td>
+    <td>8</td>
+    <td>10</td>
+    <td>8</td></tr></tbody>
+    <tbody style="background-color: blanchedalmond;color: blanchedalmond;"><tr><td colspan="20">NEW</td></tr></tbody>
+    <thead style="background-color: blue;color: white;"><tr><td colspan="20">Seções</td></tr></thead>
+    <tbody style="background-color: blanchedalmond;color: blanchedalmond;"><tr><td colspan="20">NEW</td></tr></tbody>
+    <tbody style="background-color: aqua;color: black;"><tr>
+    <td>Introdução
+    </td>
+    <td>Objetivos</td>
+    <td>Metodologia</td>
+    <td>Resultados</td>
+    <td>Discussão</td>
+    <td>Conclusões</td>
+    <td>Recomendações</td>
+    <td>Referências</td>
+    <td>Glossário</td>
+    <td>Anexos</td>
+    <td>Cronograma</td>
+    <td>Orçamento</td>
+    <td>Análise de Riscos</td>
+    <td>Estratégia de Comunicação</td>
+    <td>Critérios de Avaliação</td>
+    <td>Atividades Planejadas</td>
+    <td>Equipe e Responsabilidades</td>
+    <td>Feedback e Avaliação</td>
+    <td>Lições Aprendidas</td>
+    <td>Próximos Passos</td></tr></tbody>
+    <tbody style="background-color: blanchedalmond;color: blanchedalmond;"><tr><td colspan="20">NEW</td></tr></tbody>
+    <tfoot style="background-color: black;color: white;"><tr><td colspan="20">FIM</td></tr></tfoot>
+    </table>
+    </div>
+    </details></div></div>
+    </section>
+    </div>
+    <br>
+    <div class="section">
+    <section id="Faculdade" style="background-color: white;">
+    <h2><big>Estacio de <b style="color: red;">SÁ</b></big></h2>
+    <br>
+    <div class="img">
+    <img src="estacio.jpeg" alt="icon" width="200px" height="200px" style="border-radius: 10px 10px;box-shadow: 10px 10px 10px blueviolet;">
+    </div>
+    <br>
+    <div class="summary"><div id="text"><details><summary style="background-color: blue;color: white;border: 5px solid white;box-shadow: 6px 6px 6px blue;">Sobre</summary>
+    <br>
+    <div class="estacio">
+    <dl>
+        <dt style="color: white;"><img src="FAM Missao.png" alt="icon" width="40px" height="40px" style="border-radius: 10px 10px;box-shadow: 6px 6px 6px yellow;">Missão</dt>
+        <dd style="color: black;">Integramos academia e gestão para oferecer uma educação transformadora ao maior número de pessoas, criando impacto positivo para a sociedade.</dd>
+        <dt style="color: white;"><img src="Fam Vissao.png" alt="icon" width="40px" height="40px" style="border-radius: 10px 10px;box-shadow: 6px 6px 6px yellow;">Visão</dt>
+        <dd style="color: black;">EDUCAR PARA TRANSFORMAR</dd>
+        <dt style="color: white;"><img src="fam valores.png" alt="icon" width="40px" height="40px" style="border-radius: 10px 10px;box-shadow: 6px 6px 6px yellow;">Valores</dt>
+        <dt style="color: red;">Foco no aluno</dt>
+        <dd style="color: black;">O aluno é nossa razão de ser.</dd>
+        <dt style="color: red;">Gente e Meritocracia</dt>
+        <dd style="color: black;">Valorizamos e reconhecemos o mérito do maior ativo que possuímos: nossa gente.</dd>
+        <dt style="color: red;">Inovação</dt>
+        <dd style="color: black;">Devemos criar e ousar sempre.</dd>
+        <dt style="color: red;">Simplicidade</dt>
+        <dd style="color: black;">Devemos ser simples para sermos ágeis e austeros.</dd>
+        <dt style="color: red;">Resultado </dt>
+        <dd style="color: black;">Perseguimos resultados extraordinários com paixão e método, agindo sempre como “donos”.</dd>
+        <dt style="color: red;">Ética </dt>
+        <dd style="color: black;">Não toleramos desvios de conduta.</dd>
+        <dt style="color: red;">Excelência </dt>
+        <dd style="color: black;">Perseguimos a excelência na prestação de serviços dentro e fora da sala de aula.</dd>
+        <dt style="color: red;">Hospitalidade</dt>
+        <dd style="color: black;">Tratamos as pessoas como gostamos de ser tratados.</dd>
+    </dl>
+    </div>
+    </details></div></div>
+    </section>
+    </div>
+    <br>
+    <div class="section">
+    <section id="Cursos" style="background-color: whitesmoke;">
+    <h2><big>Cursos</big></h2>
+    <br>
+    <div class="curses"><div class="cursos">
+    <h2 style="color: whitesmoke;"><big>Engenharia de Software <img src="estacio.jpeg" alt="icon" width="40px" height="30px" style="border-radius: 10px 10px;box-shadow: 5px 5px 5px white;"></big></h2>
+    <br>
+    <p>Engloba todo o Desenvolvimento de software sendo uma área mais aprofundada e complexa.</p>
+    <p>Inclui estudo sobre diversos tipos de sistemas e ferramentas</p>    
+    </div></div>
+    <br>
+    <div class="curses"><div class="cursos">
+    <h2 style="color: white;"><big>Desenvolvimento full-stack <img src="estacio.jpeg" alt="icon" width="40px" height="30px" style="border-radius: 10px 10px;box-shadow: 5px 5px 5px whitesmoke;"></big></h2>
+    <br>
+    <p>Engloba todo o Desenvolvimento web, desde o front-end até o back end.</p>
+    <p>Sendo uma área mais generalista que as demais.</p>    
+    </div></div>
+    </section>
+    </div>
+    <br>
+    <div class="section">
+    <section id="Materias" style="background-color: whitesmoke;">
+    <h2><big>Materias</big></h2>
+    <br>
+    <div class="summary"><div id="text"><details><summary style="background-color: blue;color: white;border: 5px solid white;box-shadow: 7px 7px 7px blue;">Engenharia de software <img src="estacio.jpeg" alt="icon" width="40px" height="30px" style="border-radius: 10px 10px;box-shadow: 5px 5px 5px white;"></summary>
+    <br>
+    <caption><b style="color: red;">Cursadas</b></caption>
+    <div class="table1">
+    <table>
+    <thead style="background-color: blue;color: white;"><tr><td>Arquitetura Computacional</td></tr></thead>
+    <tbody style="background-color: aqua;color: black;"><tr><td>Relação e interação entre o software e o hardware</td></tr></tbody>
+    <thead style="background-color: blue;color: white;"><tr><td>Desenvolvimento de software</td></tr></thead>
+    <tbody style="background-color: aqua;color: black;"><tr><td>Projetar,manusear e criar softwares elaborados pelas equipes</td></tr></tbody>
+    <thead style="background-color: blue;color: white;"><tr><td>Python</td></tr></thead>
+    <tbody style="background-color: aqua;color: black;"><tr><td>Linguagem multiparadgma sendo orientada e estruturada á objetos</td></tr></tbody>
+    <thead style="background-color: blue;color: white;"><tr><td>Segurança da Informação</td></tr></thead>
+    <tbody style="background-color: aqua;color: black;"><tr><td>Proteção de dados contra ataques realizados por hackers e malwares "virús"</td></tr></tbody>
+    <thead style="background-color: blue;color: white;"><tr><td>Pensamento Computacional</td></tr></thead>
+    <tbody style="background-color: aqua;color: black;"><tr><td>Análise da forma de pensar do desenvolvedor de software</td></tr></tbody>
+    <thead style="background-color: blue;color: white;"><tr><td>Desenvolvimento web</td></tr></thead>
+    <tbody style="background-color: aqua;color: black;"><tr><td>Criação de páginas web utilizando as ferramentas ,html,,css e javascript</td></tr></tbody>
+    <thead style="background-color: blue;color: white;"><tr><td>Matemática e lógica</td></tr></thead>
+    <tbody style="background-color: aqua;color: black;"><tr><td>Fortalecimento do raciocínio lógico do desenvolvedor de software</td></tr></tbody>
+    <thead style="background-color: blue;color: white;"><tr><td>Sistemas e sociedade</td></tr></thead>
+    <tbody style="background-color: aqua;color: black;"><tr><td>Análisa a forma como a sociedade inflûencia na criação de software e sistemas</td></tr></tbody>
+    <thead style="background-color: blue;color: white;"><tr><td>Redes</td></tr></thead>
+    <tbody style="background-color: aqua;color: black;"><tr><td>Sistemas de redes e seu funcionamento dentro de uma organização</td></tr></tbody>
+    <thead style="background-color: blue;color: white;"><tr><td>Comportamento organizacional</td></tr></thead>
+    <tbody style="background-color: aqua;color: black;"><tr><td>Análisa a forma de como uma equipe deve se comportar dentro de uma organização</td></tr></tbody>
+    <tfoot style="background-color: black;color: white;"><tr><td>FIM</td></tr></tfoot>
+    </table>
+    </div>
+    </details></div></div>
+    <br>
+    <div class="summary"><div id="text"><details><summary style="background-color: blue;color: white;border: 5px solid white;box-shadow: 7px 7px 7px blue;">Engenharia de software <img src="estacio.jpeg" alt="icon" width="40px" height="30px" style="border-radius: 10px 10px;box-shadow: 5px 5px 5px white;"></summary>
+    <br>
+    <caption><b style="color: red;">Faltam</b></caption>
+    <div class="table2">
+    <table>
+    <thead style="background-color: blueviolet;color: red;"><tr><td>Modelagem de processos</td></tr></thead>
+    <tbody style="background-color: white;color: black;"><tr><td>Refere-se à representação visual de workflows e atividades dentro de uma organização, visando identificar melhorias e otimização.</td></tr></tbody>
+    <thead style="background-color: blueviolet;color: red;"><tr><td>Big Data em Python</td></tr></thead>
+    <tbody style="background-color: white;color: black;"><tr><td>Envolve o uso de bibliotecas como Pandas, NumPy e PySpark para manipular, analisar e visualizar grandes volumes de dados de forma eficiente.</td></tr></tbody>
+    <thead style="background-color: blueviolet;color: red;"><tr><td>Engenharia de Usabilidade</td></tr></thead>
+    <tbody style="background-color: white;color: black;"><tr><td>Foca em projetar sistemas que proporcionem uma experiência de usuário intuitiva e eficiente, considerando fatores como acessibilidade e satisfação.</td></tr></tbody>
+    <thead style="background-color: blueviolet;color: red;"><tr><td>Engenharia do Produto:</td></tr></thead>
+    <tbody style="background-color: white;color: black;"><tr><td>Trata do desenvolvimento e gerenciamento de produtos desde a concepção até a produção, garantindo que atendam às necessidades do mercado.</td></tr></tbody>
+    <thead style="background-color: blueviolet;color: red;"><tr><td>Sistemas Operacionais:</td></tr></thead>
+    <tbody style="background-color: white;color: black;"><tr><td>Software que gerencia o hardware do computador e fornece serviços essenciais para a execução de aplicativos, como Windows, Linux e macOS.</td></tr></tbody>
+    <thead style="background-color: blueviolet;color: red;"><tr><td>Banco de Dados</td></tr></thead>
+    <tbody style="background-color: white;color: black;"><tr><td>Estrutura que armazena, organiza e gerencia dados de maneira eficiente, permitindo a recuperação e manipulação rápida através de sistemas como SQL e NoSQL.</td></tr></tbody>
+    <thead style="background-color: blueviolet;color: red;"><tr><td>Desenvolvimento de Software Seguro:</td></tr></thead>
+    <tbody style="background-color: white;color: black;"><tr><td>Envolve práticas de programação e testes focados em identificar e mitigar vulnerabilidades, garantindo a integridade e a confidencialidade dos dados.</td></tr></tbody>
+    <thead style="background-color: blueviolet;color: red;"><tr><td>Qualidade e Testes de Software:</td></tr></thead>
+    <tbody style="background-color: white;color: black;"><tr><td>Abrange métodos e processos para garantir que o software atenda aos requisitos de qualidade e funcione corretamente, incluindo testes unitários, funcionais e de desempenho.</td></tr></tbody>
+    <thead style="background-color: blueviolet;color: red;"><tr><td>Computação em Nuvem</td></tr></thead>
+    <tbody style="background-color: white;color: black;"><tr><td>Refere-se ao uso de serviços de computação (armazenamento, processamento e redes) pela internet, permitindo que usuários acessem recursos de forma escalável e sob demanda, sem a necessidade de infraestrutura física.</td></tr></tbody>
+    <thead style="background-color: blueviolet;color: red;"><tr><td>Estruturas de Dados:</td></tr></thead>
+    <tbody style="background-color: white;color: black;"><tr><td>São formas organizadas de armazenar e manipular dados em programas de computador, incluindo tipos como listas, pilhas, filas, árvores e grafos, que otimizam a eficiência das operações de acesso e modificação.</td></tr></tbody>
+    <tfoot style="background-color: brown;color: white;"><tr><td>FIM</td></tr></tfoot>
+    </table>
+    </div>
+    </details></div></div>
+    </section>
+    </div>
+    <br>
+    <div class="section">
+    <section id="Extras" style="background-color: whitesmoke;">
+    <h2><big>Materias Extras</big></h2>
+    <br>
+    <div class="summary"><div id="text"><details><summary  style="background-color: white;border: 5px solid red;box-shadow: 5px 5px 5px white;color: black;">Desenvolvi <img src="Estacio.png" alt="icon" width="40px" height="30px" style="border-radius: 10px 10px;box-shadow: 6px 6px 6px red;"></summary>
+    <br>
+    <caption><b style="color: red;">Cursadas</b></caption>
+    <div class="table3">
+    <table>
+    <thead style="background-color: brown;color: white;"><tr><td>Arquitetura de Software</td></tr></thead>
+    <tbody style="background-color: white;color: black;"><tr><td>Estudo dos princípios e práticas de design que definem a estrutura e a interação dos componentes de um sistema de software.</td></tr></tbody>
+    <thead style="background-color: brown;color: white;"><tr><td>Desenvolvimento Ágil</td></tr></thead>
+    <tbody style="background-color: white;color: black;"><tr><td>Abordagens que enfatizam a flexibilidade, colaboração e entrega contínua de software, como Scrum e Kanban.</td></tr></tbody>
+    <thead style="background-color: brown;color: white;"><tr><td>Gerenciamento de Projetos de Software</td></tr></thead>
+    <tbody style="background-color: white;color: black;"><tr><td>Técnicas e ferramentas para planejar, executar e monitorar projetos de software, garantindo que sejam entregues no prazo e dentro do orçamento.</td></tr></tbody>
+    <thead style="background-color: brown;color: white;"><tr><td>Engenharia de Requisitos</td></tr></thead>
+    <tbody style="background-color: white;color: black;"><tr><td>Processo de elicitação, análise e documentação dos requisitos de software, assegurando que as necessidades dos stakeholders sejam atendidas.</td></tr></tbody>
+    <thead style="background-color: brown;color: white;"><tr><td>Testes Automatizados</td></tr></thead>
+    <tbody style="background-color: white;color: black;"><tr><td>Técnicas e ferramentas para a automação de testes de software, aumentando a eficiência e a cobertura durante o ciclo de desenvolvimento.</td></tr></tbody>
+    <thead style="background-color: brown;color: white;"><tr><td>DevOps</td></tr></thead>
+    <tbody style="background-color: white;color: black;"><tr><td>Práticas que integram desenvolvimento e operações para aumentar a colaboração, automação e entrega contínua de software.</td></tr></tbody>
+    <thead style="background-color: brown;color: white;"><tr><td>Segurança em Software: </td></tr></thead>
+    <tbody style="background-color: white;color: black;"><tr><td>Princípios e práticas de design e implementação que garantem a proteção contra vulnerabilidades e ameaças em sistemas de software.
+    </td></tr></tbody>
+    <thead style="background-color: brown;color: white;"><tr><td>Usabilidade e Design de Interação: </td></tr></thead>
+    <tbody style="background-color: white;color: black;"><tr><td>Estudo de princípios de design centrados no usuário, focando na criação de interfaces intuitivas e acessíveis.</td></tr></tbody>
+    <thead style="background-color: brown;color: white;"><tr><td>Programação Orientada a Objetos</td></tr></thead>
+    <tbody style="background-color: white;color: black;"><tr><td>Paradigma de programação baseado em objetos, que promove a modularidade e reutilização de código.</td></tr></tbody>
+    <tfoot style="background-color: black;color: white;"><tr><td>FIM</td></tr></tfoot>
+    </table>
+    </div>
+    </details></div></div>
+    <br>
+    <div class="summary"><div id="text"><details><summary  style="background-color: white;border: 5px solid red;box-shadow: 5px 5px 5px white;color: black;">Desenvolvi <img src="Estacio.png" alt="icon" width="40px" height="30px" style="border-radius: 10px 10px;box-shadow: 6px 6px 6px red;"></summary>
+    <br>
+    <caption><b style="color: red;">Faltam</b></caption>
+    <div class="table4">
+    <table>
+    <thead style="background-color: white;color: red;"><tr><td>Microserviços</td></tr></thead>
+    <tbody style="background-color: aqua;color: black;"><tr><td> Arquitetura que divide aplicativos em serviços pequenos e independentes, permitindo escalabilidade e flexibilidade.</td></tr></tbody>
+    <thead style="background-color: white;color: red;"><tr><td>Inteligência Artificial:</td></tr></thead>
+    <tbody style="background-color: aqua;color: black;"><tr><td>Aplicação de algoritmos e técnicas que permitem que sistemas de software simulem inteligência humana, como aprendizado de máquina e processamento de linguagem natural.</td></tr></tbody>
+    <thead style="background-color: white;color: red;"><tr><td>Banco de Dados Avançados:</td></tr></thead>
+    <tbody style="background-color: aqua;color: black;"><tr><td>Estudo de tecnologias de banco de dados não relacionais, como NoSQL, e técnicas de otimização de desempenho.</td></tr></tbody>
+    <thead style="background-color: white;color: red;"><tr><td>Computação Móvel:</td></tr></thead>
+    <tbody style="background-color: aqua;color: black;"><tr><td>Desenvolvimento de aplicativos e serviços para dispositivos móveis, considerando as limitações e oportunidades das plataformas móveis.</td></tr></tbody>
+    <thead style="background-color: white;color: red;"><tr><td>Interface de Programação de Aplicações (API)</td></tr></thead>
+    <tbody style="background-color: aqua;color: black;"><tr><td>Criação e uso de APIs para permitir a comunicação entre diferentes sistemas e aplicações.</td></tr></tbody>
+    <thead style="background-color: white;color: red;"><tr><td>Gestão de Configuração de Software:</td></tr></thead>
+    <tbody style="background-color: aqua;color: black;"><tr><td>Processos e ferramentas para controlar as mudanças e versões de software, assegurando a integridade e rastreabilidade.</td></tr></tbody>
+    <thead style="background-color: white;color: red;"><tr><td>Qualidade de Software:</td></tr></thead>
+    <tbody style="background-color: aqua;color: black;"><tr><td>Abordagens para garantir que o software atenda a padrões de qualidade, incluindo revisões, auditorias e métricas de desempenho.</td></tr></tbody>
+    <thead style="background-color: white;color: red;"><tr><td>Análise de Dados</td></tr></thead>
+    <tbody style="background-color: aqua;color: black;"><tr><td>Técnicas para extrair insights a partir de conjuntos de dados, utilizando estatísticas e ferramentas de visualização.</td></tr></tbody>
+    <thead style="background-color: white;color: red;"><tr><td>Computação em Nuvem</td></tr></thead>
+    <tbody style="background-color: aqua;color: black;"><tr><td>Princípios e práticas de desenvolvimento e implementação de aplicações na nuvem, aproveitando a escalabilidade e os serviços oferecidos por provedores de nuvem.</td></tr></tbody>
+    <tfoot style="background-color: black;color: red;"><tr><td>FIM</td></tr></tfoot>
+    </table>
+    </div>
+    </details></div></div>
+    </section>
+    </div>
+    <br>
+    <div class="section">
+    <section id="Linguagens" style="background-color: whitesmoke;">
+    <h2><big>Linguagens de programação</big></h2>
+    <br>
+    <div class="summary"><div id="text"><details><summary style="background-color: black;color: yellow;border: 5px solid white;box-shadow: 8px 8px 8px yellow;">Linguagens</summary>
+    <br>
+    <caption><b style="color: black;">Linguagens</b></caption>
+    <div class="linguagens">
+    <dl>
+    <dt style="color: yellow;"><img src="python.png" alt="icon" width="40px" height="40px" style="border-radius: 10px 10px;box-shadow: 6px 6px 6px white;">Python</dt>
+    <dd style="color: white;">Uma linguagem de alto nível, de fácil leitura e escrita, amplamente utilizada em ciência de dados, inteligência artificial e desenvolvimento web.</dd>
+    <dt style="color: yellow;"><img src="Java.png" alt="icon" width="40px" height="40px" style="border-radius: 10px 10px;box-shadow: 6px 6px 6px white;">Java</dt>
+    <dd style="color: white;">Uma linguagem de programação orientada a objetos, conhecida por sua portabilidade entre plataformas e forte uso em aplicações corporativas e desenvolvimento Android.</dd>
+    <dt style="color: yellow;"><img src="Javascript.jpeg" alt="icon" width="40px" height="40px" style="border-radius: 10px 10px;box-shadow: 6px 6px 6px white;">Javascript</dt>
+    <dd style="color: white;">Uma linguagem de script amplamente utilizada no desenvolvimento web para criar interatividade e dinamicidade em páginas da internet.</dd>
+    <dt style="color: yellow;"><img src="Ruby.jpeg" alt="icon" width="40px" height="40px" style="border-radius: 10px 10px;box-shadow: 6px 6px 6px white;">Ruby</dt>
+    <dd style="color: white;">Uma linguagem de programação focada na simplicidade e produtividade, famosa por seu uso no framework Ruby on Rails para desenvolvimento web ágil.</dd>
+    <dt style="color: yellow;"><img src="C.png" alt="icon" width="40px" height="40px" style="border-radius: 10px 10px;box-shadow: 6px 6px 6px white;">C</dt>
+    <dd style="color: white;"> Uma linguagem de programação de baixo nível, conhecida por sua eficiência e controle sobre recursos de hardware, frequentemente usada em sistemas operacionais e desenvolvimento de software embarcado.</dd>
+    <dt style="color: yellow;"><img src="C++.jpg" alt="icon" width="40px" height="40px" style="border-radius: 10px 10px;box-shadow: 6px 6px 6px white;">C++</dt>
+    <dd style="color: white;">Uma extensão da linguagem C que suporta programação orientada a objetos, amplamente utilizada em desenvolvimento de jogos, sistemas de software e aplicações de alto desempenho.</dd>
+    <dt style="color: yellow;"><img src="C w.png" alt="icon" width="40px" height="40px" style="border-radius: 10px 10px;box-shadow: 6px 6px 6px white;">C#</dt>
+    <dd style="color: white;">Uma linguagem de programação desenvolvida pela Microsoft, orientada a objetos, frequentemente usada para desenvolver aplicativos em plataformas .NET.</dd>
+    <dt style="color: yellow;"><img src="PHP.png" alt="icon" width="40px" height="40px" style="border-radius: 10px 10px;box-shadow: 6px 6px 6px white;">PHP</dt>
+    <dd style="color: white;">Uma linguagem de script do lado do servidor, amplamente utilizada no desenvolvimento web para criar sites dinâmicos e aplicativos web.</dd>
+    <dt style="color: yellow;"><img src="COBOL.jpeg" alt="icon" width="40px" height="40px" style="border-radius: 10px 10px;box-shadow: 6px 6px 6px white;">Cobol</dt>
+    <dd style="color: white;">Uma linguagem de programação de alto nível, desenvolvida nos anos 60, amplamente utilizada em sistemas de negócios e financeiros, conhecida por sua legibilidade e capacidade de processar grandes volumes de dados.</dd>
+    </dl>
+    </div>
+    </details></div></div>
+    </section>
+    </div>
+    <br>
+    <div class="section">
+    <section id="Certificados" style="background-color: whitesmoke;">
+    <h2><big>Meus Certificados</big></h2>
+    <br>
+    <div class="summary"><div id="text"><details><summary style="background-color: black;color: white;border: 4px solid white;box-shadow: 5px 5px 5px yellow;">Certificados</summary>
+    <br>
+    <caption><b style="color: red;">Certificados</b></caption>
+    <div class="certificados">
+    <table>
+    <thead style="background-color: black;color: yellow;"><tr><td colspan="6">Certificados</td></tr></thead>
+    <tbody style="background-color: beige;color: beige;"><tr><td colspan="6">NEW</td></tr></tbody>
+    <thead style="background-color: blue;color: whitesmoke;"><tr><td colspan="6">Skills</td></tr></thead>
+    <tbody style="background-color: beige;color: beige;"><tr><td colspan="6">NEW</td></tr></tbody>
+    <thead style="text-align: center;background-color: brown;color: white;"><tr>
+    <td>Java</td>
+    <td>Html</td>
+    <td>Html e css</td>
+    <td>Historico</td>
+    <td>LGPD</td>
+    <td>Segurança da Informação</td></tr></thead>
+    <tbody style="background-color: beige;color: beige;"><tr><td colspan="6">NEW</td></tr></tbody>
+    <tbody style="background-color: aqua;text-align: center;"><tr>
+    <td><img src="Pdf.jpeg" alt="icon" width="40px" height="40px" style="border-radius: 10px 10px;box-shadow: 6px 6px 6px blueviolet;"></td>
+    <td><img src="Pdf.jpeg" alt="icon" width="40px" height="40px" style="border-radius: 10px 10px;box-shadow: 6px 6px 6px blueviolet;"></td>
+    <td><img src="Pdf.jpeg" alt="icon" width="40px" height="40px" style="border-radius: 10px 10px;box-shadow: 6px 6px 6px blueviolet;"></td>
+    <td><img src="Pdf.jpeg" alt="icon" width="40px" height="40px" style="border-radius: 10px 10px;box-shadow: 6px 6px 6px blueviolet;"></td>
+    <td><img src="Pdf.jpeg" alt="icon" width="40px" height="40px" style="border-radius: 10px 10px;box-shadow: 6px 6px 6px blueviolet;"></td>
+    <td></td></tr></tbody>
+    <tbody style="background-color: beige;color: beige;"><tr><td colspan="6">NEW</td></tr></tbody>
+    <tbody style="background-color: black;text-align: center;"><tr>
+    <td><a href="download (2).pdf" download="pdf" style="background-color: brown;color: white;border: 4px solid white;border-radius: 10px 10px;text-decoration: none;text-shadow: 8px;font-size: 17px;">Baixe aqui</a></td>
+    <td><a href="Guilherme-Barbosa-da-Silva-HTML5-40-Horas-Certificado-Curso-em-Video (1).PDF" download="pdf" style="background-color: brown;color: white;border: 4px solid white;border-radius: 10px 10px;text-decoration: none;text-shadow: 8px;font-size: 17px;">Baixe aqui</a></td>
+    <td><a href="Guilherme-Barbosa-da-Silva-Curso-HTML5-e-CSS3-modulo-1-de-5-40-HORAS-Certificado-Curso-em-Video (1).PDF" download="pdf" style="background-color: brown;color: white;border: 4px solid white;border-radius: 10px 10px;text-decoration: none;text-shadow: 8px;font-size: 17px;">Baixe aqui</a></td>
+    <td><a href="historico.pdf" download="pdf" style="background-color: brown;color: white;border: 4px solid white;border-radius: 10px 10px;text-decoration: none;text-shadow: 8px;font-size: 17px;">Baixe aqui</a></td>
+    <td><a href="LGPD.pdf" download="pdf" style="background-color: brown;color: white;border: 4px solid white;border-radius: 10px 10px;text-decoration: none;text-shadow: 8px;font-size: 17px;">Baixe aqui</a></td>
+    <td><a href="Segurança da Informação.pdf" download="pdf" style="background-color: brown;color: white;border: 4px solid white;border-radius: 10px 10px;text-decoration: none;text-shadow: 8px;font-size: 17px;">Baixe aqui</a></td></tr></tbody>
+    <tbody style="background-color: beige;color: beige;"><tr><td colspan="6">NEW</td></tr></tbody>
+    <tfoot style="background-color: black;color: whitesmoke;"><tr><td colspan="6">FIM</td></tr></tfoot>
+    </table>
+    </div>
+    </details></div></div>
+    </section>
+    </div>
+    <br>
+    <div class="nav">
+    <nav id="Redes" style="background-color: wheat;">
+    <h2><big>Minhas Redes Sociais</big></h2>
+    <br>
+    <div class="summary"><div id="text"><details><summary style="background-color: blueviolet;color: white;border: 4px solid white;box-shadow: 7px 7px 7px red;">Redes</summary>
+    <br>
+    <div class="redes">
+    <p><img src="Facebook.png" alt="icon" width="40px" height="40px" style="border-radius: 10px 10px;box-shadow: 7px 7px 7px blueviolet;"></p>
+    <br>
+    <p><a href="https://www.facebook.com/profile.php?id=100006428487639"style="background-color: white;color: black;border: 4px solid black;box-shadow: 7px 7px 7px blueviolet;border-radius: 10px 10px;text-decoration: none;text-shadow: 8px;">Facebook</a></p>
+    <br>
+    <p><img src="Instagram.png" alt="icon" width="40px" height="40px" style="border-radius: 10px 10px;box-shadow: 7px 7px 7px blueviolet;"></p>
+    <br>
+    <p><a href="https://www.instagram.com/guilhermebs17?igsh=MWdrMDlxNzV2NHFveA==" style="background-color: white;color: black;border: 4px solid black;box-shadow: 7px 7px 7px blueviolet;border-radius: 10px 10px;text-decoration: none;text-shadow: 8px;">Instagram</a></p>
+    <br>
+    <p><img src="Youtube.jpeg" alt="icon" width="40px" height="40px" style="border-radius: 10px 10px;box-shadow: 7px 7px 7px blueviolet;"></p>
+    <br>
+    <p><a href="https://www.youtube.com/@guida4388" style="background-color: white;color: black;border: 4px solid black;box-shadow: 7px 7px 7px blueviolet;border-radius: 10px 10px;text-decoration: none;text-shadow: 8px;">Youtube</a></p>
+    <br>
+    <p><img src="tiktok-icon-free-png.webp" alt="icon" width="40px" height="40px" style="border-radius: 10px 10px;box-shadow: 7px 7px 7px blueviolet;"></p>
+    <br>
+    <p><a href="https://www.tiktok.com/@user685118260?is_from_webapp=1&sender_device=pc" style="background-color: white;color: black;border: 4px solid black;box-shadow: 7px 7px 7px blueviolet;border-radius: 10px 10px;text-decoration: none;text-shadow: 8px;">Tiktok</a></p>
+    </div>
+    </details></div></div>
+    </nav>
+    </div>
+    <br>
+    <div class="nav">
+    <nav id="Contatos" style="background-color: wheat;">
+    <h2><big>Entre em Contato</big></h2>
+    <br>
+    <div class="summary"><div id="text"><details><summary style="background-color: black;color: yellow;border: 5px solid white;box-shadow: 8px 8px 8px white;">Contatos</summary>
+    <br>
+    <div class="contatos">
+    <p><img src="Github.png" alt="icon" width="40px" height="40px" style="border-radius: 10px 10px;box-shadow: 7px 7px 7px yellow;"></p>
+    <br>
+    <p><a href="https://github.com/Guilherme220501" style="background-color: white;color: black;border: 5px solid red;box-shadow: 7px 7px 7px white;text-decoration: none;text-shadow: 8px;border-radius: 10px 10px;">Github</a></p>
+    <br>
+    <p><img src="Gmail-Logo.png" alt="icon" width="40px" height="40px" style="border-radius: 10px 10px;box-shadow: 7px 7px 7px yellow;"></p>
+    <br>
+    <p><a href="https://www.guilherme8876sk@gmail.com" style="background-color: white;color: black;border: 5px solid red;box-shadow: 7px 7px 7px white;text-decoration: none;text-shadow: 8px;border-radius: 10px 10px;">Gmail</a></p>
+    <br>
+    <p><img src="linkedin.jpeg" alt="icon" width="40px" height="40px" style="border-radius: 10px 10px;box-shadow: 7px 7px 7px yellow;"></p>
+    <br>
+    <p><a href="https://www.linkedin.com/in/guilherme-barbosa-059099176?" style="background-color: white;color: black;border: 5px solid red;box-shadow: 7px 7px 7px white;text-decoration: none;text-shadow: 8px;border-radius: 10px 10px;">Linkedin</a></p>
+    <br>
+    <p><img src="Whatsapp.jpeg" alt="icon" width="40px" height="40px" style="border-radius: 10px 10px;box-shadow: 7px 7px 7px yellow;"></p>
+    <br>
+    <p><a href="https://wa.me/5511983417590" style="background-color: white;color: black;border: 5px solid red;box-shadow: 7px 7px 7px white;text-decoration: none;text-shadow: 8px;border-radius: 10px 10px;">Whatsapp</a></p>
+    </div>
+    </details></div></div>
+    </nav>
+    </div>
+    <br>
+    <div class="footer">
+    <footer style="background-color: darkgrey;">
+    @Guilherme-Barbosa-da-silva,todos os direitos reservados.
+    </footer>
+    </div>
+    <script src="script.js"></script>
+    <script>showAlert("Welcome to my first page")</script>
+</body>
+</html>
